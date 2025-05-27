@@ -28,6 +28,7 @@ Install the dependencies:
 npm i -D prettier prettier-plugin-tailwindcss
 npm i -D eslint-plugin-simple-import-sort
 # Biome
+npm i @biomejs/biome -D
 
 # General
 
@@ -49,3 +50,4 @@ npm i -D eslint-plugin-simple-import-sort
 - [Simple React Snippets](https://marketplace.cursorapi.com/items?itemName=burkeholland.simple-react-snippets)
 - [poimandres](https://marketplace.cursorapi.com/items?itemName=pmndrs.pmndrs)
 - [Symbols](https://marketplace.cursorapi.com/items?itemName=miguelsolorio.symbols)
+- [Biome](https://marketplace.cursorapi.com/items?itemName=biomejs.biome)
