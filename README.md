@@ -2,7 +2,10 @@
 
 ## Project
 
+- [Figma](https://www.figma.com/design/eVnp1AIXMni6ZGqe94blIp/dr.agenda?node-id=356-126&p=f&t=uiUSFSTIvjU6vNuc-0)
+
 Create the project
+
 ```sh
 npx create-next-app@15.3.2
 ```
@@ -19,17 +22,27 @@ npx create-next-app@15.3.2
 ```
 
 Install the dependencies:
+
 ```sh
+# ESLint + Prettier
 npm i -D prettier prettier-plugin-tailwindcss
+npm i -D eslint-plugin-simple-import-sort
+# Biome
+
+# General
+
 ```
 
 ## Technologies
+
 - [Next.js](https://nextjs.org)
 
 ## Tools
+
 - IDE: [Cursor](https://www.cursor.com/) - [VS Code](https://code.visualstudio.com) - [Windsurf](https://windsurf.com/editor)
 
 ## Extensions
+
 - [Tailwind CSS IntelliSense](https://marketplace.cursorapi.com/items?itemName=bradlc.vscode-tailwindcss)
 - [ESLint](https://marketplace.cursorapi.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier - Code formatter](https://marketplace.cursorapi.com/items?itemName=esbenp.prettier-vscode)
