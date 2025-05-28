@@ -51,6 +51,16 @@ Open the Database:
 npx drizzle-kit studio
 ```
 
+Generate database to authentication:
+```sh
+npx @better-auth/cli generate
+```
+
+Migrate database to authentication:
+```sh
+npx @better-auth/cli migrate
+```
+
 Install Shadcn:
 ```sh
 npx shadcn@latest init
@@ -90,6 +100,7 @@ npx shadcn@latest add form
 - Database Host: [Neon](https://neon.tech/) - [Supabase](https://supabase.com) - [Vercel Postgres](https://vercel.com/docs/postgres) - [PlanetScale](https://planetscale.com)
 - Diagrams: [Eraser](https://app.eraser.io/)
 - Components: [Shadcn](https://ui.shadcn.com) - [Material UI](https://mui.com/material-ui/) - [Ant Design](https://ant.design)
+- Authentication: [Better Auth](https://www.better-auth.com) - [Auth.js](https://authjs.dev) - [Clerk](https://clerk.com)
 
 ## Extensions
 
