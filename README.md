@@ -39,6 +39,17 @@ npm i dotenv
 
 ```
 
+Generate the Database:
+```sh
+npx drizzle-kit push
+```
+
+Open the Database:
+```sh
+npx drizzle-kit studio
+```
+
+
 ## Technologies
 
 - [Next.js](https://nextjs.org)
@@ -48,6 +59,7 @@ npm i dotenv
 - IDE: [Cursor](https://www.cursor.com/) - [VS Code](https://code.visualstudio.com) - [Windsurf](https://windsurf.com/editor)
 - ORM: [Drizzle](https://orm.drizzle.team) - [Prisma](https://www.prisma.io)
 - Database Host: [Neon](https://neon.tech/) - [Supabase](https://supabase.com) - [Vercel Postgres](https://vercel.com/docs/postgres) - [PlanetScale](https://planetscale.com)
+- Diagrams: [Eraser](https://app.eraser.io/)
 
 ## Extensions
 
