@@ -36,7 +36,9 @@ npm i -D drizzle-kit @types/pg
 npm i dotenv
 
 # General
-
+npm i zod
+npm i sonner
+npm i better-auth
 ```
 
 Generate the Database:
@@ -54,8 +56,28 @@ Install Shadcn:
 npx shadcn@latest init
 
 npx shadcn@latest add button
+npx shadcn@latest add tabs
+npx shadcn@latest add card
+npx shadcn@latest add input
+npx shadcn@latest add label
+npx shadcn@latest add form
 
 ```
+
+## Roteiro Aula 01: Setup do Projeto
+
+- [x] Inicialização do projeto Next.js
+- [x] Configuração de ferramentas (ESlint, Prettier, Tailwind)
+- [x] Configuração do Drizzle e banco de dados
+- [x] Configuração do shadcn/ui
+
+## Roteiro Aula 02: Autenticação e Configurações do Estabelecimento
+
+- [x] Tela de login e criação de conta
+- [ ] Login com e-mail e senha
+- [ ] Login com o Google
+- [ ] Fundamentos do Next.js (Rotas, Páginas, Layouts)
+- [ ] Criação de clínica
 
 ## Technologies
 
@@ -79,3 +101,5 @@ npx shadcn@latest add button
 - [Symbols](https://marketplace.cursorapi.com/items?itemName=miguelsolorio.symbols)
 - [Biome](https://marketplace.cursorapi.com/items?itemName=biomejs.biome)
 - [OKLCH Color Preview](https://marketplace.cursorapi.com/items?itemName=nize.oklch-preview)
+
+<!-- Senha: A______ -->
