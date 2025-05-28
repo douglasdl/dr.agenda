@@ -49,6 +49,13 @@ Open the Database:
 npx drizzle-kit studio
 ```
 
+Install Shadcn:
+```sh
+npx shadcn@latest init
+
+npx shadcn@latest add button
+
+```
 
 ## Technologies
 
@@ -60,6 +67,7 @@ npx drizzle-kit studio
 - ORM: [Drizzle](https://orm.drizzle.team) - [Prisma](https://www.prisma.io)
 - Database Host: [Neon](https://neon.tech/) - [Supabase](https://supabase.com) - [Vercel Postgres](https://vercel.com/docs/postgres) - [PlanetScale](https://planetscale.com)
 - Diagrams: [Eraser](https://app.eraser.io/)
+- Components: [Shadcn](https://ui.shadcn.com) - [Material UI](https://mui.com/material-ui/) - [Ant Design](https://ant.design)
 
 ## Extensions
 
@@ -70,3 +78,4 @@ npx drizzle-kit studio
 - [poimandres](https://marketplace.cursorapi.com/items?itemName=pmndrs.pmndrs)
 - [Symbols](https://marketplace.cursorapi.com/items?itemName=miguelsolorio.symbols)
 - [Biome](https://marketplace.cursorapi.com/items?itemName=biomejs.biome)
+- [OKLCH Color Preview](https://marketplace.cursorapi.com/items?itemName=nize.oklch-preview)
