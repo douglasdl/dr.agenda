@@ -71,6 +71,8 @@ npx shadcn@latest add card
 npx shadcn@latest add input
 npx shadcn@latest add label
 npx shadcn@latest add form
+npx shadcn@latest add sonner
+npx shadcn@latest add dialog
 
 ```
 
@@ -84,7 +86,7 @@ npx shadcn@latest add form
 ## Roteiro Aula 02: Autenticação e Configurações do Estabelecimento
 
 - [x] Tela de login e criação de conta
-- [ ] Login com e-mail e senha
+- [x] Login com e-mail e senha
 - [ ] Login com o Google
 - [ ] Fundamentos do Next.js (Rotas, Páginas, Layouts)
 - [ ] Criação de clínica
@@ -112,5 +114,10 @@ npx shadcn@latest add form
 - [Symbols](https://marketplace.cursorapi.com/items?itemName=miguelsolorio.symbols)
 - [Biome](https://marketplace.cursorapi.com/items?itemName=biomejs.biome)
 - [OKLCH Color Preview](https://marketplace.cursorapi.com/items?itemName=nize.oklch-preview)
+
+
+## Auth
+
+- [Google Cloud Platform](https://console.cloud.google.com/welcome)
 
 <!-- Senha: A______ -->

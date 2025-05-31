@@ -14,7 +14,15 @@ export const auth = betterAuth({
       clientId: process.env.GOOGLE_CLIENT_ID as string,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
     },
+    // apple: {
+    //   clientId: process.env.APPLE_CLIENT_ID as string,
+    //   clientSecret: process.env.APPLE_CLIENT_SECRET as string,
+    //   // Optional
+    //   appBundleIdentifier: process.env.APPLE_APP_BUNDLE_IDENTIFIER as string,
+    // },
   },
+  // Add appleid.apple.com to trustedOrigins for Sign In with Apple flows
+  // trustedOrigins: ['https://appleid.apple.com'],
   user: {
     modelName: 'usersTable',
   },
