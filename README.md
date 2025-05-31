@@ -39,6 +39,9 @@ npm i dotenv
 npm i zod
 npm i sonner
 npm i better-auth
+npm i dayjs
+npm i next-safe-action zod
+npm i react-number-format
 ```
 
 Generate the Database:
@@ -76,6 +79,9 @@ npx shadcn@latest add dialog
 npx shadcn@latest add sidebar
 npx shadcn@latest add avatar
 npx shadcn@latest add dropdown-menu
+npx shadcn@latest add alert-dialog
+npx shadcn@latest add select
+npx shadcn@latest add badge
 ```
 
 ## Roteiro Aula 01: Setup do Projeto
@@ -114,6 +120,9 @@ npx shadcn@latest add dropdown-menu
 - Diagrams: [Eraser](https://app.eraser.io/)
 - Components: [Shadcn](https://ui.shadcn.com) - [Material UI](https://mui.com/material-ui/) - [Ant Design](https://ant.design)
 - Authentication: [Better Auth](https://www.better-auth.com) - [Auth.js](https://authjs.dev) - [Clerk](https://clerk.com)
+- [Day.js](https://day.js.org)
+- [Next Safe Action](https://next-safe-action.dev)
+- [React Number Format](https://s-yadav.github.io/react-number-format/docs/intro/)
 
 ## Extensions
 
