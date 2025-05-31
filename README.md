@@ -42,6 +42,7 @@ npm i better-auth
 npm i dayjs
 npm i next-safe-action zod
 npm i react-number-format
+npm i @tanstack/react-table
 ```
 
 Generate the Database:
@@ -82,6 +83,9 @@ npx shadcn@latest add dropdown-menu
 npx shadcn@latest add alert-dialog
 npx shadcn@latest add select
 npx shadcn@latest add badge
+npx shadcn@latest add table
+npx shadcn@latest add alert-dialog
+npx shadcn@latest add calendar
 ```
 
 ## Roteiro Aula 01: Setup do Projeto
@@ -106,7 +110,19 @@ npx shadcn@latest add badge
 - [x] Criação de médicos & NextSafeAction
 - [x] Listagem de médicos
 - [x] Atualização de médicos
-- [] Deleção de médicos
+- [x] Deleção de médicos
+
+## Roteiro Aula 04: Gerenciamento de Pacientes e Agendamentos
+
+- [x] Criação de pacientes
+- [x] Edição de pacientes
+- [x] Listagem de pacientes
+- [x] Deleção de pacientes
+- [ ] Criação de agendamentos
+- [ ] Listagem de agendamentos
+- [ ] Deleção de agendamentos
+
+---
 
 ## Technologies
 
@@ -123,6 +139,7 @@ npx shadcn@latest add badge
 - [Day.js](https://day.js.org)
 - [Next Safe Action](https://next-safe-action.dev)
 - [React Number Format](https://s-yadav.github.io/react-number-format/docs/intro/)
+- [Tanstack Table](https://tanstack.com/table/latest/docs/installation)
 
 ## Extensions
 
@@ -140,4 +157,21 @@ npx shadcn@latest add badge
 
 - [Google Cloud Platform](https://console.cloud.google.com/welcome)
 
-<!-- Senha: A7_____ -->
+<!-- Senha: A7X____ -->
+
+## Agent Prompts:
+
+```mdc
+crie uma página de paciantes. Essa página deve ter o botão de 'Adicionar paciente'. Esse botão abrirá um dialog com um formulário de upsert.
+
+Esse formulário terá os seguintes compos:
+- Nome do paciente
+- E-mail
+- Número de telefone (com máscara)
+- Sexo: select com duas opções, "Masculino" e "Feminino"
+
+Crie um componente "AddPatientButton" que renderizará o componente "UpsertPatientForm".
+
+Ao enviar o formulário, chame uma nova server action que vai fazer upsert do paciente no bando de dados.
+
+```
