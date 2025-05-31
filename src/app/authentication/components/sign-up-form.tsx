@@ -7,7 +7,7 @@ import { useForm } from 'react-hook-form'
 import { toast } from 'sonner'
 import { z } from 'zod'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@/_components/ui/button'
 import {
   Card,
   CardContent,
@@ -15,11 +15,11 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
-import { FormControl, FormMessage } from '@/components/ui/form'
-import { FormItem, FormLabel } from '@/components/ui/form'
-import { Form, FormField } from '@/components/ui/form'
-import { Input } from '@/components/ui/input'
+} from '@/_components/ui/card'
+import { FormControl, FormMessage } from '@/_components/ui/form'
+import { FormItem, FormLabel } from '@/_components/ui/form'
+import { Form, FormField } from '@/_components/ui/form'
+import { Input } from '@/_components/ui/input'
 import { authClient } from '@/lib/auth-client'
 
 const registerSchema = z.object({

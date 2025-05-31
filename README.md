@@ -73,7 +73,9 @@ npx shadcn@latest add label
 npx shadcn@latest add form
 npx shadcn@latest add sonner
 npx shadcn@latest add dialog
-
+npx shadcn@latest add sidebar
+npx shadcn@latest add avatar
+npx shadcn@latest add dropdown-menu
 ```
 
 ## Roteiro Aula 01: Setup do Projeto
@@ -87,9 +89,18 @@ npx shadcn@latest add dialog
 
 - [x] Tela de login e criação de conta
 - [x] Login com e-mail e senha
-- [ ] Login com o Google
-- [ ] Fundamentos do Next.js (Rotas, Páginas, Layouts)
-- [ ] Criação de clínica
+- [x] Login com o Google
+- [x] Fundamentos do Next.js (Rotas, Páginas, Layouts)
+- [x] Criação de clínica
+
+## Roteiro Aula 03: Gerenciamento de Profissionais e Disponibilidade
+
+- [x] Sidebar e Route Groups
+- [x] Página de médicos
+- [x] Criação de médicos & NextSafeAction
+- [x] Listagem de médicos
+- [x] Atualização de médicos
+- [] Deleção de médicos
 
 ## Technologies
 
@@ -120,4 +131,4 @@ npx shadcn@latest add dialog
 
 - [Google Cloud Platform](https://console.cloud.google.com/welcome)
 
-<!-- Senha: A______ -->
+<!-- Senha: A7_____ -->
