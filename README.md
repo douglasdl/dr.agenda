@@ -43,9 +43,10 @@ npm i dayjs
 npm i next-safe-action zod
 npm i react-number-format
 npm i @tanstack/react-table
+npm i @tanstack/react-query
 ```
 
-Generate the Database:
+Generate or update the Database:
 ```sh
 npx drizzle-kit push
 ```
@@ -86,6 +87,7 @@ npx shadcn@latest add badge
 npx shadcn@latest add table
 npx shadcn@latest add alert-dialog
 npx shadcn@latest add calendar
+npx shadcn@latest add popover
 ```
 
 ## Roteiro Aula 01: Setup do Projeto
@@ -157,7 +159,7 @@ npx shadcn@latest add calendar
 
 - [Google Cloud Platform](https://console.cloud.google.com/welcome)
 
-<!-- Senha: A7X____ -->
+<!-- Senha: A7X9___ -->
 
 ## Agent Prompts:
 
